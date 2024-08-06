@@ -1,0 +1,75 @@
+
+@media screen {
+    .container1{ 
+        background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+        max-height: 100%;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 50px;
+    }
+    .container2{
+        max-width: fit-content;
+        max-height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 90px;
+        padding-bottom: 90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        display: flex;
+    }
+    .im{
+        position: relative;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .text1{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight:700;
+        word-wrap:break-word;
+    } .text2{
+        text-align: center;
+        color: #717170;
+        font-size: 15px;
+        font-weight:700;
+        word-wrap:break-word;
+        margin-bottom: 30px;
+    }
+    .btn{
+        background-color: #ae538a;
+        color: #B8B8B8;
+        margin: 10px;
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        border-width: 0px;
+    } 
+    .focus-in-contract-bck {
+        animation: focus-in-contract-bck 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight:700;
+        word-wrap:break-word;
+    }
+    @keyframes focus-in-contract-bck {
+        0% {
+          letter-spacing: 1em;
+          transform: translateZ(300px);
+          filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          transform: translateZ(12px);
+          filter: blur(0);
+          opacity: 1;
+        }
+      }
+      
+}
